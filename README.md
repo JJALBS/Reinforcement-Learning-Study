@@ -1,12 +1,29 @@
-# Reinforcement-Learning-Study
-This is a repository that has jupyter notbooks that I logged for studying elementary reinforcement learning algorithms.
+# Reinforcement Learning Study
 
-The "DQN.ipynb" file includes:
-  1. the vanilla version of DQN algorithm, and
-  2. the PyTorch example version.
+This repository contains Jupyter notebooks documenting my study of foundational reinforcement learning algorithms.
 
-The "Actor_Critic.ipynb" file includes:
-  1. REINFORCE algorithm,
-  2. A2C algorithm, and
-  3. PPO algorithm
-implemented as pure vanilla version, except for the fact that the direction of policy update has been normalised.
+## Contents
+
+### `DQN.ipynb`
+
+This notebook includes:
+
+1. A vanilla implementation of the DQN algorithm.
+2. The PyTorch example version of DQN.
+
+### `Actor_Critic.ipynb`
+
+This notebook includes:
+
+1. REINFORCE
+2. A2C
+3. PPO
+
+These algorithms are implemented as vanilla versions, except that the policy update direction is normalised.
+
+## Environment Setup
+
+This project uses a Conda environment specified in `environment.yml`.
+From the project root directory, run:
+```bash
+conda env create -f environment.yml
